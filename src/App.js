@@ -1,9 +1,10 @@
 import './App.css';
-
+import Navbar from './components/nav/Navbar';
 function App() {
   return (
-    <div className="App" style ={{background:'maroon'}}>
-     <h1 style ={{color:'red'}}>My Portfolio</h1>
+    <div className="App" style ={{background:'gray'}}>
+    <Navbar/>
+     
     </div>
   );
 }
