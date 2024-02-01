@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/nav/Navbar';
 function App() {
   return (
-    <div className="App" style ={{background:'gray'}}>
+    <div className="App" >
     <Navbar/>
      
     </div>
