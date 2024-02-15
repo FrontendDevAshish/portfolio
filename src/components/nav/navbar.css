@@ -2,29 +2,31 @@
     display: flex;
     justify-content: space-around;
     padding: 2%;
+    font-size: 1.5rem;
 }
+
 .home{
-    background: bisque;
+    background: maroon;
     padding: 10px 50px 10px 50px;
     border-radius: 50px;
 }
 .about{
-    background: bisque;
+    background: maroon;
     padding: 10px 50px 10px 50px;
     border-radius: 50px;
 }
 .resume{
-    background: bisque;
+    background: maroon;
     padding: 10px 50px 10px 50px;
     border-radius: 50px;
 }
 .contact-info{
-    background: bisque;
+    background: maroon;
     padding: 10px 50px 10px 50px;
     border-radius: 50px;
 }
 .projects{
-    background: bisque;
+    background: maroon;
     padding: 10px 50px 10px 50px;
     border-radius: 50px;
 }
