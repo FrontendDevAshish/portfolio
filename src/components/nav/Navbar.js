@@ -12,7 +12,7 @@ const Navbar = () => {
       <a href='#experience'><MdOutlineHome/></a>
       <a href='#services'><MdOutlineHome/></a>
       <a href='#contact'><MdOutlineHome/></a>
-      {/* <p className='new feats'>If you are inthe midst of the</p> */}
+      
 
     </nav>
 
