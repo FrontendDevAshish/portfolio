@@ -1,17 +1,19 @@
 import React from 'react'
 import './navbar.css'
-import { MdOutlineHome } from "react-icons/md";
+import { MdOutlineBook, MdOutlineDesignServices, MdOutlineHome, MdOutlineMessage, MdOutlineVerifiedUser } from "react-icons/md";
+import { useState } from 'react';
 
 
 const Navbar = () => {
+  const [activeNav,setActiveNav] = useState('#')
   return (
     <nav>
 
-      <a href='#'><MdOutlineHome/></a>
-      <a href='#about'><MdOutlineHome/></a>
-      <a href='#experience'><MdOutlineHome/></a>
-      <a href='#services'><MdOutlineHome/></a>
-      <a href='#contact'><MdOutlineHome/></a>
+      <a href='#' className={activeNav === '0'?'active':''}><MdOutlineHome/></a>
+      <a href='#about'><MdOutlineVerifiedUser/></a>
+      <a href='#experience'><MdOutlineBook/></a>
+      <a href='#services'><MdOutlineDesignServices/></a>
+      <a href='#contact'><MdOutlineMessage/></a>
       
 
     </nav>
