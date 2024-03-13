@@ -5,16 +5,10 @@
 }
 
 .about__me{
-    width: 100%;
+    /* width: 100%; */
     border-radius: 3rem;
     /* aspect-ratio: 2/1; */
-    background: linear-gradient(
-        45deg,
-        transparent,
-        /* var(--color-primary), */
-        red,
-        /* transparent */
-    );
+    background: blue;
     display: grid;
     place-items: center;
 }
@@ -25,26 +19,24 @@
     /* overflow: hidden; */
     /* transform: rotate(1deg); */
     transition: transform 0.5s ease-in; /* Apply transition to the transform property */
-    background-color: bisque;
+    background: bisque;
     padding: 1%;
-    width: 10%;
-    display: flex;
-    align-items: center;
+    /* width: 50%; */
+    object-fit: cover;
+    
+    
     
 }
 .tilting{
     transform: rotate(1deg); 
-    /* width: 50%; */
+    
     border-radius: 10%;
+    
 }
 .tilting:hover{
     transform: rotate(-4deg);
     transition: transform 0.5s ease-in
 }
-
-/* .about__me-image:hover {
-    transform: rotate(-4deg);
-} */
 
 .about__cards{
     display: grid;
