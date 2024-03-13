@@ -1,0 +1,79 @@
+.about__conatiner{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about__me{
+    width: 100%;
+    border-radius: 3rem;
+    /* aspect-ratio: 2/1; */
+    background: linear-gradient(
+        45deg,
+        transparent,
+        /* var(--color-primary), */
+        red,
+        /* transparent */
+    );
+    display: grid;
+    place-items: center;
+}
+
+.about__me-image {
+    /* width: auto; */
+    border-radius:  2rem;
+    /* overflow: hidden; */
+    /* transform: rotate(1deg); */
+    transition: transform 0.5s ease-in; /* Apply transition to the transform property */
+    background-color: bisque;
+    padding: 1%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    
+}
+.tilting{
+    transform: rotate(1deg); 
+    /* width: 50%; */
+    border-radius: 10%;
+}
+.tilting:hover{
+    transform: rotate(-4deg);
+    transition: transform 0.5s ease-in
+}
+
+/* .about__me-image:hover {
+    transform: rotate(-4deg);
+} */
+
+.about__cards{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1.5rem;
+}
+.about__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+.about__card:hover{
+    background: transparent;
+    transition:var(--transition);
+    cursor: default;
+    
+}
+.about__icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.about__card small{
+    font-size: 0.7rem;
+    color: var(--color-light);
+
+}
+.about__card h5{
+    font-size: 0.95rem;
+}

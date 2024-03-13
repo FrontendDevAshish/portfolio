@@ -10,10 +10,11 @@ const Navbar = () => {
     <nav>
 
       <a href='#' className={activeNav === '0'?'active':''}><MdOutlineHome/></a>
-      <a href='#about' className={activeNav === '0'?'active':''}><MdOutlineVerifiedUser/></a>
-      <a href='#experience' className={activeNav === '0'?'active':''}><MdOutlineBook/></a>
-      <a href='#services' className={activeNav === '0'?'active':''}><MdOutlineDesignServices/></a>
-      <a href='#contact' className={activeNav === '0'?'active':''}><MdOutlineMessage/></a>
+      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about'?'active':''}><MdOutlineVerifiedUser/></a>
+      <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience'?'active':''}><MdOutlineBook/></a>
+      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services'?'active':''}><MdOutlineDesignServices/></a>
+      <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact'?'active':''}><MdOutlineMessage/></a>
+      
       
 
     </nav>
