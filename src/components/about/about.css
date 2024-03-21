@@ -5,38 +5,42 @@
 }
 
 .about__me{
-    /* width: 100%; */
+    width: 50%;
     border-radius: 3rem;
-    /* aspect-ratio: 2/1; */
-    background: blue;
+    aspect-ratio: 1/1;
+    
     display: grid;
     place-items: center;
+    /* background: red; */
+}
+.bg-color{
+    padding: 1px;
+    background-color:var(--color-primary);
+    border-radius: 10px;
+
+}
+.bg-color img{
+        width: contain;
+    transform: rotate(5deg);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 
 .about__me-image {
-    /* width: auto; */
-    border-radius:  2rem;
-    /* overflow: hidden; */
-    /* transform: rotate(1deg); */
-    transition: transform 0.5s ease-in; /* Apply transition to the transform property */
-    background: bisque;
-    padding: 1%;
-    /* width: 50%; */
-    object-fit: cover;
+    border-radius: 2rem;
+    overflow: hidden;
     
-    
-    
+     /* Added transition */
+    width: 35%;
+    padding: 10px;
+    /* background: var(--color-primary); */
+    /* background-color: red; */
 }
-.tilting{
-    transform: rotate(1deg); 
-    
-    border-radius: 10%;
-    
+
+.bg-color img:hover {
+    transform: rotate(0);
 }
-.tilting:hover{
-    transform: rotate(-4deg);
-    transition: transform 0.5s ease-in
-}
+
 
 .about__cards{
     display: grid;

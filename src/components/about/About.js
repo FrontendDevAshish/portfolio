@@ -9,8 +9,13 @@ const About = () => {
       <h2>About me</h2>
       <div className="container about__container">
         <div className='about __me'>
+        
          <div className='about__me-image'>
-          <img className='tilting' src={Code} alt = "About Image" style={{width:"40%"}}/>
+         <div className='bg-color'>
+         <img className='tilting' src={Code} alt = "About Image" />
+
+         </div>
+          
          </div>
         </div>
         <div className='about__content'>
