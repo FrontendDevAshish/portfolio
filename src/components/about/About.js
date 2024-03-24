@@ -13,9 +13,7 @@ const About = () => {
          <div className='about__me-image'>
          <div className='bg-color'>
          <img className='tilting' src={Code} alt = "About Image" />
-
          </div>
-          
          </div>
         </div>
         <div className='about__content'>
@@ -25,23 +23,24 @@ const About = () => {
               <h5>Experience</h5> 
               <small>2+ Years Working</small>
             </article>
-
             <article className='about__card'>
               <MdOutlineHome className ="about__icon"></MdOutlineHome>
-              <h5>Experience</h5> 
+              <h5>Clients</h5> 
               <small>2+ Years Working</small>
             </article>
-
             <article className='about__card'>
               <MdOutlineHome className ="about__icon"></MdOutlineHome>
-              <h5>Experience</h5> 
+              <h5>Projects</h5> 
               <small>2+ Years Working</small>
             </article>
           </div>
           <p>
-           
+            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+            Lorem IpsumLorem Ipsum
           </p>
-
 
         </div>
       </div>

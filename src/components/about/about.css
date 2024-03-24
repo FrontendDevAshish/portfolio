@@ -8,19 +8,18 @@
     width: 50%;
     border-radius: 3rem;
     aspect-ratio: 1/1;
-    
     display: grid;
     place-items: center;
-    /* background: red; */
+    
 }
 .bg-color{
-    padding: 1px;
-    background-color:var(--color-primary);
+    padding: 0.25px;
+    background-image: linear-gradient(to top left,var(--color-primary), var(--color-bg-variant)), 
+                      linear-gradient(to bottom right,var(--color-primary), var(--color-bg-variant));;
     border-radius: 10px;
-
 }
 .bg-color img{
-        width: contain;
+     width: contain;
     transform: rotate(5deg);
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -28,19 +27,13 @@
 
 .about__me-image {
     border-radius: 2rem;
-    overflow: hidden;
-    
-     /* Added transition */
     width: 35%;
-    padding: 10px;
-    /* background: var(--color-primary); */
-    /* background-color: red; */
+    padding: 20px;
 }
 
 .bg-color img:hover {
     transform: rotate(0);
 }
-
 
 .about__cards{
     display: grid;
@@ -49,16 +42,15 @@
 }
 .about__card{
     background: var(--color-bg-variant);
-    border: 1px solid transparent;
+    border: 1px solid var(--color-bg-variant);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
-.about__card:hover{
+.about__card:hover {
     background: transparent;
-    transition:var(--transition);
-    cursor: default;
-    
+    transition:transform 3s ease;
+    cursor: default; 
 }
 .about__icon{
     color: var(--color-primary);
@@ -72,4 +64,9 @@
 }
 .about__card h5{
     font-size: 0.95rem;
+}
+
+.about__content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
 }
