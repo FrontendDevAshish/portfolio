@@ -15,7 +15,6 @@ const Navbar = () => {
       <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services'?'active':''}><MdOutlineDesignServices/></a>
       <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact'?'active':''}><MdOutlineMessage/></a>
       
-      
 
     </nav>
 
