@@ -28,7 +28,18 @@ const Portfolio = () => {
           <article className='portfolio__item'>
             <div className='portfolio__item-image'>
             <img src={IMG2} alt=''/>
-
+            </div>
+            <div className='portfolio__item-image'>
+            <img src={IMG2} alt=''/>
+            </div>
+            <div className='portfolio__item-image'>
+            <img src={IMG2} alt=''/>
+            </div>
+            <div className='portfolio__item-image'>
+            <img src={IMG2} alt=''/>
+            </div>
+            <div className='portfolio__item-image'>
+            <img src={IMG2} alt=''/>
             </div>
           </article>
         </div>
