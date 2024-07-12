@@ -8,9 +8,11 @@ import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer'
 import Portfolio from './components/portfolio/Portfolio';
+import ParticlesBackground from './components/ParticlesBackground/ParticlesBackground';
 function App() {
   return (
     <>
+      <ParticlesBackground />
       <Header/> 
       <Navbar/>
       <About/>
