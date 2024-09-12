@@ -49,7 +49,9 @@
 }
 .about__card:hover {
     background: transparent;
-    transition:transform 3s ease;
+    /* transition:transform 3s ease; */
+    transition:1s;
+
     cursor: default; 
 }
 .about__icon{
