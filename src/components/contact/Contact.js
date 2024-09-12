@@ -62,7 +62,7 @@ const Contact = () => {
             required
           />
           <textarea
-            name="Message"  // Make sure this matches your template variable
+            name="Message"  
             placeholder="Your Message"
             required
           />

@@ -11,14 +11,14 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto app',
+    title: 'Data Dashboard',
     github: 'https://github.com',
     demo : 'https://dribbble.com/Alien_pixels'
   },
   {
     id: 2,
     image: IMG1,
-    title: 'Crypto app',
+    title: 'E-commerce',
     github: 'https://github.com',
     demo : 'https://dribbble.com/Alien_pixels'
   },
@@ -61,7 +61,7 @@ const Portfolio = () => {
             <div className='portfolio__item-image'>
               <img src={image} alt={title}/>
             </div>
-            <h3>{title}</h3>
+            <h2>{title}</h2>
             <div className='portfolio__item-cta'>
             <a href={github} className='btn' target='_blank'>Github</a>
             <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>

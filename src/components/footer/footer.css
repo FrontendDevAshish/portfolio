@@ -30,6 +30,7 @@ footer a{
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
+
 }
 
 .footer__socials a {
@@ -39,6 +40,7 @@ footer a{
     border-radius: 0.7rem;
     display: flex;
     border: 1px solid transparent;
+    transition: 1s;
 }
 
 .footer__socials a:hover{
