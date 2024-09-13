@@ -5,7 +5,7 @@ import IMG2 from '../../assets/IMG2.jpg'
 import IMG3 from '../../assets/IMG3.jpg'
 import IMG4 from '../../assets/IMG4.jpg'
 import IMG5 from '../../assets/IMG5.jpg'
-// import IMG6 from '../../assets/IMG6.jpg'
+
 
 const data = [
   {
@@ -25,7 +25,7 @@ const data = [
   {
     id: 3,
     image: IMG1,
-    title: 'Crypto app',
+    title: 'Todo List',
     github: 'https://github.com',
     demo : 'https://dribbble.com/Alien_pixels'
   },
@@ -59,7 +59,7 @@ const Portfolio = () => {
               return (
             <article key={id} className='portfolio__item'>
             <div className='portfolio__item-image'>
-              <img src={image} alt={title}/>
+              <img src = {image} alt={title} style={{borderRadius:'15px'}}/>
             </div>
             <h2>{title}</h2>
             <div className='portfolio__item-cta'>
