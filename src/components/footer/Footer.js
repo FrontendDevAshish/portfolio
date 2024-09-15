@@ -5,7 +5,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer>
-      <a href='#' className='footer__logo'>Footer</a>
+      <a href='#' className='footer__logo'>Aloha!</a>
 
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
@@ -23,7 +23,7 @@ const Footer = () => {
       <a href='https://facebook.com'><FaFacebook/></a> 
       </div>
       <div className='footer__copyright'>
-        <samll> Frontend_Dev : " Aashish Kumar " </samll>
+        <samll> Frontend_Dev : " Ashish Kumar " </samll>
       </div>
     </footer>
   )
