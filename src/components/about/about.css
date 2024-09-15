@@ -1,7 +1,8 @@
-.about__conatiner{
+.about__container{
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    
 }
 
 .about__me{
@@ -19,7 +20,7 @@
     border-radius: 10px;
 }
 .bg-color img{
-     width: contain;
+     /* width: contain; */
     transform: rotate(5deg);
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -27,8 +28,9 @@
 
 .about__me-image {
     border-radius: 2rem;
-    width: 35%;
-    padding: 20px;
+    width: auto
+    /* padding: 20px; */
+    
 }
 
 .bg-color img:hover {
@@ -73,7 +75,7 @@
     color: var(--color-light);
 }
 @media screen and (max-width: 1024px) {
-    .about__conatiner{
+    .about__container{
         grid-template-columns: 1fr;
         gap:0
     }
