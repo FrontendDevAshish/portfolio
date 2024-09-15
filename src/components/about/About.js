@@ -35,11 +35,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-            Lorem IpsumLorem Ipsum
+          I am a passionate full-stack developer with over two years of experience in building dynamic and efficient web applications. On the frontend, I specialize in React JS, Next JS, and design frameworks like Bootstrap and Tailwind, while optimizing performance using Webpack and Babel. I have extensive experience with Redux and Redux Toolkit for state management in complex applications. On the backend, I’m proficient in Node.js and Express.js, designing scalable APIs and microservices, and I work with MongoDB to create robust databases. I thrive on solving challenges and delivering clean, maintainable code.
           </p>
 
         </div>
