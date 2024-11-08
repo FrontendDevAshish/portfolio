@@ -11,11 +11,9 @@ const Header = () => {
       <header>
         <div className='container header__container'>
           <h5>Hello I'm</h5>
-          <h1>Ashish kumar</h1>
+          <h1>John Doe</h1>
           <div className="header__title">
-            <h3 className="text"><span style={{color:'#4db5ff'}}>Frontend</span> Developer</h3>
-            <h3 className="text">MERN <span style={{color:'#4db5ff'}}>Stack</span> Developer</h3>
-            <h3 className="text">Full Stack <span style={{color:'#4db5ff'}}> Developer</span></h3>
+            MERN stack Developer
           </div>
           <CTA/>
           <HeaderSocials/>

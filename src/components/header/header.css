@@ -5,19 +5,13 @@ header{
     text-align: center;
 }
 
-@keyframes scroll {
-    0% { transform: translateY(0); opacity: 0; }
-    33% { transform: translateY(-100%); opacity: 0; }
-    34% { transform: translateY(100%); opacity: 0; }
-    67% { transform: translateY(0); opacity: 1; }
-    100% { transform: translateY(100%); opacity: 0; }
-  }
+
   
   .header__title {
-    position: relative;
+    /* position: relative; */
     height: 30px; 
     overflow: hidden;
-    padding-left: 42%;
+    /* padding-left: 10%; */
   }
   
   .header__title h3 {
